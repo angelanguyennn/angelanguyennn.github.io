@@ -1,0 +1,17 @@
+.h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(224, 224, 223);
+    font-family: 'Courier New', Courier, monospace;
+
+.inspo{
+    color: rgb(224, 224, 223);
+}
+
+.one {
+    width: 500px;
+} 
