@@ -8,6 +8,9 @@ body {
     color: rgb(224, 224, 223);
     font-family: 'Courier New', Courier, monospace;
 
+.inspo{
+    color: rgb(224, 224, 223);
+}
 
 .one {
     width: 500px;
