@@ -2,4 +2,8 @@ body {
     background-color: rgb(10, 10, 10);
     color: rgb(224, 224, 223);
     font-family: 'Courier New', Courier, monospace;
-    
+
+}
+a {
+    color: chartreuse;
+}
