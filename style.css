@@ -2,10 +2,14 @@ body {
     background-color: rgb(10, 10, 10);
     color: rgb(224, 224, 223);
     font-family: 'Courier New', Courier, monospace;
-
+}
 h1 {
-    font-family: 'Franklin Gothic Wide', 'Arial Wide', Arial, sans-serif;
-    }
+    font-family: 'Franklin Gothic Wide', sans-serif;
+}
+
+title {
+    font-family: fantasy;
+}
 
 }
 a {
