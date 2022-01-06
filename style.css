@@ -11,3 +11,13 @@ h1 {
 a {
     color: rgb(228, 95, 240);
 }
+
+{
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
