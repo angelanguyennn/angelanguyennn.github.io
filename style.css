@@ -8,5 +8,6 @@ a {
     color: rgb(228, 95, 240);
 }
 
-title { font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif;
-        color:rgb(124, 70, 252); }
+title { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
