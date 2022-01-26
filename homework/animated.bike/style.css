@@ -13,10 +13,22 @@ body{
     transform-origin: center;
     transform-box: fill-box;
 }
+#bike.bitch{
+    animation: bike 1s ease-in-out infinite alternate
+}
 
 @keyframes wheel{
     from{
         transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes bike {
+    from{
+        transform: rotateX(0deg);
     }
     to {
         transform: rotateZ(360deg);
