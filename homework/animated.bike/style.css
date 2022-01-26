@@ -25,12 +25,3 @@ body{
         transform: rotateZ(360deg);
     }
 }
-
-@keyframes bike {
-    from{
-        transform: rotateX(0deg);
-    }
-    to {
-        transform: rotateZ(2deg);
-    }
-}
