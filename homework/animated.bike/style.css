@@ -9,7 +9,7 @@ body{
 }
 
 #back-wheel{
-    animation: wheel 1s ease;
+    animation: wheel 1s ease infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
