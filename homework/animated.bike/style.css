@@ -13,7 +13,7 @@ body{
     transform-origin: center;
     transform-box: fill-box;
 }
-#bike.bitch{
+#biker{
     animation: bike 1s ease-in-out infinite alternate
 }
 
