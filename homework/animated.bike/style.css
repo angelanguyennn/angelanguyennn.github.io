@@ -31,6 +31,6 @@ body{
         transform: rotateX(0deg);
     }
     to {
-        transform: rotateZ(5deg);
+        transform: rotateZ(2deg);
     }
 }
