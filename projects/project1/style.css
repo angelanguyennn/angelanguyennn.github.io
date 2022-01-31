@@ -1,4 +1,7 @@
 body{
     background-color: rgb(116, 146, 112);
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(224, 224, 223);
+    font-family: 'Courier New', Courier, monospace;
 }
