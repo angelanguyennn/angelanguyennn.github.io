@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <title>Project 1</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Landing Page Typing */
+      #text {
+        padding: 0.5em;
+        width: 100%;
+        word-wrap: break-word;
+        text-align: center;
+        user-select: none;
+      }
+
+      #text::after {
+        content: "_";
+        opacity: 0;
+        animation: cursor 0.5s infinite alternate;
+      }
+      p {
+        height: 100vh;
+      }
+
+      @keyframes cursor {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 0.8;
+        }
+      }
+
+      /* if you want to have a different cursor color from the text, include this and change the color to what you want */
+      .cursor::after {
+        color: black;
+      }
+      .text:nth-child(odd) {
+        background-color: #ccc;
+      }
+    </style>
     
 </head>
 <body> 
