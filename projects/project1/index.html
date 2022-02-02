@@ -31,7 +31,13 @@
           opacity: 0.8;
         }
       }
-
+      .parent {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        /*    justify-content: center;*/
+      }
       /* if you want to have a different cursor color from the text, include this and change the color to what you want */
       .cursor::after {
         color: rgb(0, 0, 0);
@@ -45,12 +51,6 @@
     </style>
   </head>
   <body>
-    <dvi class="parent">
-      width: 100vw;
-    height: 100vh;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
     <p id="text" class="text">
       <span>
         <noscript>A Litany for Survival
