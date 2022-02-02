@@ -97,7 +97,8 @@
       nor welcomed
       but when we are silent
       we are still afraid
-       
+    </p>
+    <p id="text5" class="text">
       So it is better to speak
       remembering
       we were never meant to survive.
@@ -135,6 +136,16 @@
         // Do something after 3 seconds
         // This can be direct code, or call to some other function
       }, 24000)
+      setTimeout(function () {
+        $("html, body").animate(
+          {
+            scrollTop: $("#text5").offset().top
+          },
+          2000
+        )
+        // Do something after 3 seconds
+        // This can be direct code, or call to some other function
+      }, 32000)
     </script>
 
     <script>
