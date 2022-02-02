@@ -1,5 +1,5 @@
 h1 {
-    animation: type 3s steps(22);
+    animation:ease 3s steps(22);
     overflow: hidden;
     white-space: nowrap;
     font-family: 'Courier New', Courier, monospace;
