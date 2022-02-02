@@ -1,4 +1,4 @@
-body {
+h1 {
     animation: type 3s steps(22);
     overflow: hidden;
     white-space: nowrap;
