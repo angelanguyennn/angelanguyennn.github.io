@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(231, 255, 94);
+  }
+
+.GFG {
+    background-color: rgb(57, 65, 38);
+    color: rgb(251, 253, 138);
+    padding: 20px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 20px;
+    cursor: pointer;
+    text-decoration:none;
+          }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(240, 109, 207);
+    color: black;
+    border-radius: 70%;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 50%;
+  }
