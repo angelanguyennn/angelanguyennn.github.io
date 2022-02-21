@@ -2,9 +2,23 @@ body{
   background-color: rgb(231, 255, 94);
 }
 
-.topnav{
-align-items: center;
+.one {
+ font-size: 20pt;
 }
+
+.two {
+  font-size: 200pt;
+  text-align: center;
+  text-decoration-color: brown;
+}
+
+.three {
+  image-resolution: 100%;
+  align-items: center;
+}
+
+.topnav
+
 
 
  .GFG {
