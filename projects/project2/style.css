@@ -2,6 +2,12 @@ body{
   background-color: rgb(231, 255, 94);
 }
 
-h1 {
-  align-items: center;
+.one {
+ font-size: 20pt;
+}
+
+.two {
+  font-size: 200pt;
+  text-align: center;
+  text-decoration-color: brown;
 }
