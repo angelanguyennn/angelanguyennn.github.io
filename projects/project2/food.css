@@ -2,18 +2,6 @@ body{
     background-color: rgb(231, 255, 94);
   }
 
-.GFG {
-    background-color: rgb(57, 65, 38);
-    color: rgb(251, 253, 138);
-    padding: 20px 10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 20px;
-    cursor: pointer;
-    text-decoration:none;
-          }
-  
   /* Add a black background color to the top navigation */
   .topnav {
     overflow: hidden;
