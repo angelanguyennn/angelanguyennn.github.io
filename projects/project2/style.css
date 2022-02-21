@@ -1,49 +1,35 @@
-body {
-    background:url(https://images.unsplash.com/photo-1602292678572-16cb94ea0d88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=860&q=80);
-    background-size: 200%; background-repeat: no-repeat; background-position-x: center;
-  }
-  #text {
-    padding: 1em;
-    width: 100%;
-    word-wrap: break-word;
-    text-align: center;
-    user-select: none;
-  }
+img {
+  width: 100%;
+}
 
-  #text::after {
-    content: "_";
-    opacity: 0;
-    animation: cursor 0.5s infinite alternate;
-  }
-  p {
-    margin: auto auto;
-    width: 50%;
-  }
+section {
+  width: 100%;
+  padding: 40px 80px;
+}
+.one {
+  background-color: bisque;
+}
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.flex-right img {
+  padding-left: 30px;
+}
+.flex-left img {
+  padding-right: 30px;
+}
 
-  @keyframes cursor {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 0.8;
-    }
-  }
-  .parent {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    /*    justify-content: center;*/
-  }
-
-  /* if you want to have a different cursor color from the text, include this and change the color to what you want */
-  .cursor::after {
-    color: rgb(255, 255, 255);
-  }
-  .text {
-    font-size: 30pt;
-    color: rgb(255, 242, 198);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    text-align: center;
-  }
+.flex-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.flex-right div,
+.flex-left div {
+  border: 1px solid red;
+  width: 33%;
+}
