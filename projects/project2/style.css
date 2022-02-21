@@ -19,10 +19,10 @@ body{
 
 
  .GFG {
-  background-color: white;
+  background-color: rgb(197, 241, 94);
   border: 2px solid black;
-  color: green;
-  padding: 30px 10px;
+  color: rgb(251, 253, 138);
+  padding: 20px 10px;
   text-align: center;
   display: inline-block;
   font-size: 20px;
