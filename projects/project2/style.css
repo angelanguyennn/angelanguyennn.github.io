@@ -55,6 +55,6 @@ body{
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-  border-style: groove;
+  border-radius: 50%;
 }
 
