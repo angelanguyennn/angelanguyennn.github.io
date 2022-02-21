@@ -3,10 +3,11 @@ body{
 }
 
 .one {
- text-transform: lowercase;
+ font-size: 30pt;
 }
 
 .two {
   font-size: 200pt;
   text-align: center;
+  text-decoration-color: brown;
 }
