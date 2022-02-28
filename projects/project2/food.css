@@ -32,7 +32,7 @@ body{
     border-radius: 50%;
   }
 
-  .carousel-inner > .row > img {
+  .carousel-inner > .row > {
     position:absolute;
     top:25%;
     left:25%;
