@@ -31,8 +31,7 @@ body{
     color: white;
     border-radius: 50%;
   }
-
-  .carousel-inner > .row > {
+.row {
     position:absolute;
     top:25%;
     left:25%;
