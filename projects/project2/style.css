@@ -45,11 +45,12 @@ body{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
   font-family: "Lucida Console", "Courier New", monospace;
