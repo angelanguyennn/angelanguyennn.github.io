@@ -166,3 +166,37 @@ margin-right: auto;
       transform: rotate(359deg);
     }
   }
+
+  .six{
+    align-content: center;
+    animation: rotation 15s infinite linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+
+    .seven{
+      align-content: center;
+      animation: rotation 15s infinite linear;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
