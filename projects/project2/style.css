@@ -135,7 +135,7 @@ body{
 
 .four{
 align-content: center;
-animation: rotation 5s infinite linear;
+animation: rotation 12s infinite linear;
 display: block;
 margin-left: auto;
 margin-right: auto;
