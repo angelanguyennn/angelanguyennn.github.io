@@ -139,8 +139,6 @@ animation: rotation 8s infinite linear;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 100px;
-height: 100px;
 }
 
 @keyframes rotation {
