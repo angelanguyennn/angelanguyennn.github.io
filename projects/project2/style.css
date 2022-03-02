@@ -51,6 +51,9 @@ body{
   text-decoration: none;
   font-size: 17px;
   font-family: "Lucida Console", "Courier New", monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Change the color of links on hover */
@@ -116,8 +119,8 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 225px;
-  height: 250px;
+  width: 250px;
+  height: 220px;
 }
 
 @keyframes rotation {
