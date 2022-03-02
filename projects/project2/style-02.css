@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .food-page{
     background-color: rgb(231, 255, 94);
   }
