@@ -111,6 +111,7 @@ body{
 }
 
 .rotate {
+  align-content: center;
   animation: rotation 8s infinite linear;
 }
 
