@@ -63,3 +63,13 @@ body{
   border-radius: 50%;
 }
 
+.food-page .flexparent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.food-page .flexparent div{
+  flex:50%;
+  padding: 50%;
+}
