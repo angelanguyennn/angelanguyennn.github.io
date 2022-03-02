@@ -133,3 +133,12 @@ body{
   }
 }
 
+.flexparent{
+align-content: center;
+animation: rotation 8s infinite linear;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 250px;
+height: 220px;
+}
