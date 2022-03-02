@@ -21,8 +21,14 @@ body{
   align-items: center;
 }
 
-.topnav
-
+.topnav{
+position: absolute;
+left: 0px;
+height: 40px;
+background-color: #2C64B4;
+width: 100%;
+margin: 0 auto;
+}
 
 
  .GFG {
@@ -35,9 +41,6 @@ body{
   margin: 10px 20px;
   cursor: pointer;
   text-decoration:none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
         }
 
 /* Add a black background color to the top navigation */
