@@ -40,3 +40,6 @@ body{
 .food-page .flexparent{
   display: flex;
 }
+.food-page .flexparent div{
+  flex:50%;
+}
