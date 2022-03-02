@@ -45,7 +45,6 @@ body{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   color: #000000;
