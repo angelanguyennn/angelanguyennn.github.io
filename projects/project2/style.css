@@ -113,6 +113,10 @@ body{
 .rotate {
   align-content: center;
   animation: rotation 8s infinite linear;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @keyframes rotation {
