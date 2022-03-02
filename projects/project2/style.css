@@ -142,3 +142,12 @@ margin-right: auto;
 width: 250px;
 height: 220px;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
