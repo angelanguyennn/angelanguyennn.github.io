@@ -44,7 +44,7 @@ body{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
+  float: left;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +60,7 @@ body{
 .topnav a:hover {
   background-color: rgb(240, 109, 207);
   color: black;
-  border-radius: 70%;
+  border-radius: 50%;
 }
 
 /* Add a color to the active/current link */
