@@ -18,6 +18,7 @@ body{
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
+
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(240, 109, 207);
@@ -35,3 +36,7 @@ body{
     top: 50%;
     left:25%;
 } 
+
+.food-page .flexparent{
+  display: flexbox;
+}
