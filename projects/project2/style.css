@@ -78,3 +78,13 @@ body{
   flex:40%;
   padding: 20px;
 }
+
+.goi-cuon.png{
+  display: block;
+  width: 100%;
+}
+
+.goi-cuon.png_overlay{
+  position: absolute;
+  background: rgb(0, 0, 0);
+}
