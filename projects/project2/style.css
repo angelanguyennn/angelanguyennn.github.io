@@ -70,7 +70,7 @@ body{
 .food-page .flexparent{
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 
