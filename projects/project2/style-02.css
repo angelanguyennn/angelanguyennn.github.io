@@ -35,10 +35,6 @@
     color: white;
     border-radius: 50%;
   }
-.row {
-    top: 50%;
-    left:25%;
-} 
 
 .food-page .flexparent{
   display: flex;
