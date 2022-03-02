@@ -75,6 +75,6 @@ body{
 }
 
 .food-page .flexparent div{
-  flex:50%;
+  flex:40%;
   padding: 10%;
 }
