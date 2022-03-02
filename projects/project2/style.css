@@ -64,13 +64,13 @@ body{
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 .food-page .flexparent{
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
