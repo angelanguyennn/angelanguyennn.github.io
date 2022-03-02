@@ -60,7 +60,7 @@ body{
 .topnav a:hover {
   background-color: rgb(240, 109, 207);
   color: black;
-  border-radius: 70%;
+  border-radius: 50%;
 }
 
 /* Add a color to the active/current link */
