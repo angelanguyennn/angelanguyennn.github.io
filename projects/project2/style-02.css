@@ -38,5 +38,5 @@ body{
 } 
 
 .food-page .flexparent{
-  display: flexbox;
+  display: flex;
 }
