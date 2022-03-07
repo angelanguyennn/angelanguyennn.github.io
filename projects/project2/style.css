@@ -105,6 +105,7 @@ body{
   align-content: center;
   animation: rotation 8s infinite linear;
   display: block;
+  border: 5px;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
