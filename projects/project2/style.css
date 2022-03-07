@@ -3,6 +3,9 @@
 }
 
 body{
+  #grad {
+    background-image: linear-gradient(green, yellow);
+  }
   background-color: rgb(231, 255, 94);
 }
 
