@@ -4,9 +4,7 @@
 
 body{
   #grad {
-    background-image: linear-gradient(green, yellow);
-  }
-  background-color: rgb(231, 255, 94);
+  background-color: linear-gradient (rgb(231, 255, 94), yellow);
 }
 
 .one {
