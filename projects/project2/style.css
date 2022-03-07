@@ -132,7 +132,9 @@ body{
     transform: rotate(359deg);
   }
   
-  .four{
+.image
+
+.image_goicuon{
     position: absolute;
     top: 0;
     left: 0;
@@ -146,3 +148,4 @@ body{
     justify-content: center;
     opacity: 0;
   }
+
