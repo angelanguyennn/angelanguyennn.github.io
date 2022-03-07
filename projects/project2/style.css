@@ -17,9 +17,6 @@ body{
   text-decoration-color: brown;
 }
 
-.h3{
-  font-family: 'Courier New', Courier, monospace;
-}
 .topnav
 
  .GFG {
@@ -65,6 +62,10 @@ body{
   background-color: #04AA6D;
   color: white;
   border-radius: 90%;
+}
+
+.goi-cuon-page{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .food-page .flexparent{
@@ -122,4 +123,3 @@ body{
   to {
     transform: rotate(359deg);
   }
-
