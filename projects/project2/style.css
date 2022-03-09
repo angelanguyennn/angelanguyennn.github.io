@@ -126,6 +126,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+.food-page .menu{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
 .container-1{
   display: flex;
   align-items: flex-start;
