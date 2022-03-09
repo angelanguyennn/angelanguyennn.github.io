@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yummy Eats - Foods</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Eats</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="food-page">
-    
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="food.html">Food</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
+<body class="goi-cuon-page">
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="food.html">Food</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+
+<div class="two">
+    Gỏi Cuốn
+</div class="two">
+
+  <div class="three">
+    <img src="goi-cuon.png" class="rotate" width="150" height="150" />
   </div>
 
-  <div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="usa">USA</option>
-        <option value="canada">Canada</option>
-        <option value="australia">Australia</option>
-      </select>
-  
-      <label for="subject">Comment</label>
-      <textarea id="subject" name="subject" placeholder="Write something nice!" style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
-  </div>
-          
-</body class="food-page">
+  <style>
+    .container-1{
+        display: flex;
+        align-items: flex-start;
+    }
+    .container-1 div{
+        border: 0px #ccc solid;
+        padding: 10px;
+    }
+
+    .box-1{
+        flex: 2;
+        order: 2;
+    }
+
+</style>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+    </select>
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something nice!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+</body>
 </html>
