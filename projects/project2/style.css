@@ -68,7 +68,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
 }
 
-.contact-page{
+.contact-page .container{
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
