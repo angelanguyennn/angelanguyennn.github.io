@@ -20,29 +20,50 @@
   </p>
 
       <div class="flexparent">
-        <div class="image">
+        <div class="image goi-cuon ">
           <a href="goi-cuon.html">
             <img class="goi-cuon_img" src="goi-cuon.png" alt="goi-cuon">
             </a>
+            <div class="hide"><h2>Goi Coun</h2></div>
         </div>
 
-        <div class="image_pho">
+        <div class="image_pho pho">
           <a href="pho.html">
             <img class="pho_img" src="pho.png" alt="pho">
             </a>
+            <div class="hide"><h2>Pho</h2></div>
         </div>
 
-        <div class="image_pho">
+        <div class="image_pho banh-xeo">
           <a href="banh-xeo.html">
             <img class="pho_img" src="banh-xeo.png" alt="banh-xeo">
             </a>
+            <div class="hide"><h2>Banh Xeo</h2></div>
         </div>
 
-        <div class="image_pho">
+        <div class="image_pho cha-gio">
           <a href="cha-gio.html">
             <img class="pho_img" src="cha-gio.png" alt="cha-gio">
             </a>
+            <div class="hide"><h2>Cha Gio</h2></div>
         </div>
-          
+          <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script>
+    $('.goi-cuon').hover(function(){
+      $('.goi-cuon div').toggleClass('hide')
+    })
+    $('.banh-xeo').hover(function(){
+      $('.banh-xeo div').toggleClass('hide')
+    })
+    $('.cha-gio').hover(function(){
+      $('.cha-gio div').toggleClass('hide')
+    })
+    $('.pho').hover(function(){
+      $('.pho div').toggleClass('hide')
+    })
+  </script>
 </body class="food-page">
 </html>

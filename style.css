@@ -1,13 +1,13 @@
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(224, 224, 223);
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(0, 0, 0);
+  color: rgb(224, 224, 223);
+  font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    font-family: 'Franklin Gothic Wide', sans-serif;
-    color: rgb(253, 211, 251);
+  font-family: 'Franklin Gothic Wide', sans-serif;
+  color: rgb(253, 211, 251);
 }
 
 a {
-    color: rgb(228, 95, 240);
+  color: rgb(228, 95, 240);
 }
