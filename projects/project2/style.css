@@ -121,6 +121,13 @@ input[type=submit]:hover {
   margin: auto;
 }
 
+.goi-cuon div {
+  background: 0
+  width: 100%
+  border-radius: 50%
+  position: relative
+}
+
 .food-page .flexparent div{
   flex:40%;
   padding: 20px;
