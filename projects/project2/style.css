@@ -121,11 +121,22 @@ input[type=submit]:hover {
   margin: auto;
 }
 
+.goi-cuon img: hover{
+  
+}
+
 .goi-cuon div {
   background: 0
   width: 100%
   border-radius: 50%
-  position: relative
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.goi-cuon h2{
+  padding-top: 20%;
+  color: #ccc;
 }
 
 .food-page .flexparent div{
@@ -179,6 +190,4 @@ input[type=submit]:hover {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(359deg);
-  }
-  
+    transform: rotate(359deg);}
